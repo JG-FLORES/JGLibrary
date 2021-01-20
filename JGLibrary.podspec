@@ -18,18 +18,31 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  JGLibrary is my CocoaPods creation.
                        DESC
 
   s.homepage         = 'https://github.com/jg-flores/JGLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    LICENSE
+  }
   s.author           = { 'jg-flores' => 'guerraflores2012@gmail.com' }
   s.source           = { :git => 'https://github.com/jg-flores/JGLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'JGLibrary/Classes/**/*'
   
   # s.resource_bundles = {
