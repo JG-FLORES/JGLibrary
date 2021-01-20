@@ -1,16 +1,23 @@
 PODS:
+  - Alamofire (4.9.1)
   - JGLibrary (0.1.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
   - JGLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   JGLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JGLibrary: c1ab1734a666029f74f2cd7984dc1eb5d006480a
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JGLibrary: f9a92fd4516ce3bc2f199f725fdee4baed234a4f
 
-PODFILE CHECKSUM: 6f54f51e0a1317c4f472b078edb7eab5ef3886d0
+PODFILE CHECKSUM: d83a2cf79bd03d07163d332f62b35426afc31e66
 
 COCOAPODS: 1.10.1

@@ -14,7 +14,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EB887CC5C9012169BEDC23FC /* Pods_JGLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF40669A353F81DF02B1355B /* Pods_JGLibrary_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +30,6 @@
 		054CD152FFBE0FD0062AB945 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		16D6C8B72245FE018D9B02D4 /* Pods-JGLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-JGLibrary_Example/Pods-JGLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A22E000A55EC38869FC1352 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2B7B5253A5F1BD3F86E2415A /* Pods-JGLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JGLibrary_Tests/Pods-JGLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		32FE050069199AF9E06714F3 /* Pods-JGLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-JGLibrary_Example/Pods-JGLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3787E2435710FBB7315E59BC /* JGLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGLibrary.podspec; path = ../JGLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JGLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +43,6 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8336A57C1B386F3A054F9915 /* Pods_JGLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A49DFB5BC9D3B88093845F7E /* Pods-JGLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-JGLibrary_Tests/Pods-JGLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF40669A353F81DF02B1355B /* Pods_JGLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB887CC5C9012169BEDC23FC /* Pods_JGLibrary_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +69,6 @@
 			children = (
 				16D6C8B72245FE018D9B02D4 /* Pods-JGLibrary_Example.debug.xcconfig */,
 				32FE050069199AF9E06714F3 /* Pods-JGLibrary_Example.release.xcconfig */,
-				2B7B5253A5F1BD3F86E2415A /* Pods-JGLibrary_Tests.debug.xcconfig */,
-				A49DFB5BC9D3B88093845F7E /* Pods-JGLibrary_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -154,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				8336A57C1B386F3A054F9915 /* Pods_JGLibrary_Example.framework */,
-				CF40669A353F81DF02B1355B /* Pods_JGLibrary_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JGLibrary_Test" */;
 			buildPhases = (
-				C9D885DB5154DD69E571E216 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -293,37 +284,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JGLibrary_Example/Pods-JGLibrary_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/JGLibrary/JGLibrary.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGLibrary.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JGLibrary_Example/Pods-JGLibrary_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9D885DB5154DD69E571E216 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JGLibrary_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,7 +480,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7B5253A5F1BD3F86E2415A /* Pods-JGLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = KU643D986T;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -532,7 +502,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A49DFB5BC9D3B88093845F7E /* Pods-JGLibrary_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = KU643D986T;
 				FRAMEWORK_SEARCH_PATHS = (
