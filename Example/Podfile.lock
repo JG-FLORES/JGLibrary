@@ -1,0 +1,16 @@
+PODS:
+  - JGLibrary (0.1.0)
+
+DEPENDENCIES:
+  - JGLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  JGLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JGLibrary: c1ab1734a666029f74f2cd7984dc1eb5d006480a
+
+PODFILE CHECKSUM: 6f54f51e0a1317c4f472b078edb7eab5ef3886d0
+
+COCOAPODS: 1.10.1
